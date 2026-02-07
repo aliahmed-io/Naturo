@@ -3,13 +3,13 @@
 import { useRef, useEffect, useState } from "react";
 import { useScroll, useTransform, motion, useSpring } from "framer-motion";
 
-const frameCount = 161;
+const frameCount = 192;
 const images: HTMLImageElement[] = [];
 
 // Preload function
 const preloadImages = () => {
     // We already moved images to /sequence/ezgif-frame-*.jpg
-    // Filenames are 1-indexed: 001 to 161.
+    // Filenames are 1-indexed: 001 to 192.
     for (let i = 1; i <= frameCount; i++) {
         const img = new Image();
         const src = `/sequence/ezgif-frame-${i.toString().padStart(3, "0")}.jpg`;

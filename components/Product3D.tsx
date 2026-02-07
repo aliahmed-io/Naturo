@@ -4,7 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { useGLTF, Stage, Float, ContactShadows, OrbitControls } from "@react-three/drei";
 import { Suspense } from "react";
 
-function Model(props: any) {
+function Model(props: Record<string, unknown>) {
     const { scene } = useGLTF("/product.glb");
     return <primitive object={scene} {...props} />;
 }

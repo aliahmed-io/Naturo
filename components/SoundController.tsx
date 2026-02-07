@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import useSound from "use-sound";
 import { Volume2, VolumeX } from "lucide-react";
 

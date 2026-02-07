@@ -30,7 +30,7 @@ export default function Testimonials() {
                     viewport={{ once: true }}
                     className="text-center font-serif text-[#1B3022] text-3xl mb-20 italic"
                 >
-                    "The new standard for cognitive clarity."
+                    &ldquo;The new standard for cognitive clarity.&rdquo;
                 </motion.h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-[#1B3022]/10 pt-16">
@@ -43,7 +43,7 @@ export default function Testimonials() {
                             viewport={{ once: true }}
                         >
                             <div className="text-[#1B3022] mb-6 text-xl leading-relaxed font-serif">
-                                “{r.quote}”
+                                &ldquo;{r.quote}&rdquo;
                             </div>
                             <div>
                                 <div className="font-sans font-bold text-[#1B3022] text-sm tracking-wide uppercase">{r.author}</div>
